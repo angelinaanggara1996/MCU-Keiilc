@@ -1,0 +1,438 @@
+Dependencies for Project 'DSP_FFT', Target 'DSP_FFT': (DO NOT MODIFY !)
+F (..\..\..\..\Library\Device\Nuvoton\M451Series\Source\ARM\startup_M451Series.s)(0x59D732DA)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1"--list .\lst\startup_m451series.lst --xref -o .\obj\startup_m451series.o --depend .\obj\startup_m451series.d)
+F (..\..\..\..\Library\Device\Nuvoton\M451Series\Source\system_M451Series.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\system_m451series.o --omf_browse .\obj\system_m451series.crf --depend .\obj\system_m451series.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\User\src\main.c)(0x5A01A827)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\User\inc\main.h)(0x59D732DC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+I (..\..\..\..\Library\SystemConfig\inc\GPIOConfig.h)(0x59D732DA)
+I (..\..\..\..\Library\SystemConfig\inc\SystemConfig.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\analog.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\arm_math.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\retarget.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\timer.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\analog.c)(0x5A3918B0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\analog.o --omf_browse .\obj\analog.crf --depend .\obj\analog.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\arm_math.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (..\..\..\..\Library\StdDriver\src\eadc.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\eadc.o --omf_browse .\obj\eadc.crf --depend .\obj\eadc.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\StdDriver\src\pwm.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\pwm.o --omf_browse .\obj\pwm.crf --depend .\obj\pwm.d)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x59D732DA)()
+F (..\..\..\..\Library\SystemConfig\src\GPIOConfig.c)(0x59D732DA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\gpioconfig.o --omf_browse .\obj\gpioconfig.crf --depend .\obj\gpioconfig.d)
+I (..\..\..\..\Library\SystemConfig\inc\GPIOConfig.h)(0x59D732DA)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+F (..\..\..\..\Library\SystemConfig\src\SystemConfig.c)(0x5A0562D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\..\..\..\Library\Device\Nuvoton\M451Series\Include -I ..\..\..\..\Library\CMSIS\Include -I ..\..\..\..\Library\StdDriver\inc -I ..\..\..\..\Library\SystemConfig\inc -I ..\User\inc-I.\RTE\_DSP_FFT-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.1.0\Device\M451\Include-D__UVISION_VERSION="524" -D_RTE_ -DARM_MATH_CM4 -D__FPU_PRESENT="1"-o .\obj\systemconfig.o --omf_browse .\obj\systemconfig.crf --depend .\obj\systemconfig.d)
+I (..\..\..\..\Library\SystemConfig\inc\SystemConfig.h)(0x59D732DA)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4.h)(0x59D732D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x59D732D8)
+I (..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h)(0x59D732D8)
+I (..\..\..\..\Library\Device\Nuvoton\M451Series\Include\system_M451Series.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\eadc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\dac.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\can.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\usbd.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\tk.h)(0x59D732DA)
+I (..\..\..\..\Library\StdDriver\inc\otg.h)(0x59D732DA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\..\..\Library\SystemConfig\inc\GPIOConfig.h)(0x59D732DA)

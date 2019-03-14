@@ -1,0 +1,9 @@
+.\obj\fft_data.o: ..\User\src\fft_data.c
+.\obj\fft_data.o: ..\..\..\..\Library\CMSIS\Include\arm_math.h
+.\obj\fft_data.o: ..\..\..\..\Library\CMSIS\Include\core_cm4.h
+.\obj\fft_data.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\fft_data.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
+.\obj\fft_data.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
+.\obj\fft_data.o: ..\..\..\..\Library\CMSIS\Include\core_cm4_simd.h
+.\obj\fft_data.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\fft_data.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

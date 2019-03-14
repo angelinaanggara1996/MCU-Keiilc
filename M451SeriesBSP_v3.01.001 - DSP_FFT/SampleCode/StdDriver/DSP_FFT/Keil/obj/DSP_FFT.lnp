@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp
+".\obj\startup_m451series.o"
+".\obj\system_m451series.o"
+".\obj\main.o"
+".\obj\clk.o"
+".\obj\gpio.o"
+".\obj\retarget.o"
+".\obj\sys.o"
+".\obj\timer.o"
+".\obj\uart.o"
+".\obj\analog.o"
+".\obj\eadc.o"
+".\obj\pwm.o"
+"..\..\..\..\Library\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+".\obj\gpioconfig.o"
+".\obj\systemconfig.o"
+--library_type=microlib --strict --scatter ".\obj\DSP_FFT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\DSP_FFT.map" -o .\obj\DSP_FFT.axf
